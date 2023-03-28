@@ -1,5 +1,5 @@
 {
-  "name": "react-container-query",
+  "name": "@postermywall/react-container-query",
   "version": "0.12.1",
   "description": "Container Query for React Component",
   "author": "Daiwei Lu <daiweilu123@gmail.com> (http://daiwei.lu)",
@@ -72,8 +72,8 @@
     "yargs": "11.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17",
-    "react-dom": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17"
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17 || ^18",
+    "react-dom": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17 || ^18"
   },
   "scripts": {
     "clean": "rimraf lib dist coverage public",

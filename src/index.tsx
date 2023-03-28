@@ -12,7 +12,7 @@ import isShallowEqual from './isShallowEqual';
 * };
 */
 
-export const useContainerQuery = (query: Query, initialSize: Size) => {
+export const useContainerQuery = (query: Query, initialSize?: Size) => {
   // setup a ref callback
   // (end user) attaches that ref callback to a container element
   // @ts-ignore
