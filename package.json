@@ -1,11 +1,11 @@
 {
   "name": "@postermywall/react-container-query",
-  "version": "0.12.1",
+  "version": "1.0.1",
   "description": "Container Query for React Component",
   "author": "Daiwei Lu <daiweilu123@gmail.com> (http://daiwei.lu)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-container-query/react-container-query.git"
+    "url": "https://github.com/PosterMyWall/react-container-query.git"
   },
   "keywords": [
     "reactjs",
@@ -83,6 +83,7 @@
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
     "lint:js": "eslint config/webpack.config.*",
     "lint:ts": "tslint src/**/*.ts",
+    "release": "npm publish --access public",
     "lint": "npm run lint:js && npm run lint:ts",
     "test-client": "env NODE_ENV=test karma start",
     "test-server": "env NODE_ENV=test mocha test/server",
